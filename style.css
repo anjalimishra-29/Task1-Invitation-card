@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+.invitation-card {
+    background-color: #ffffff; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+     background-image: url(birthday\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.header h1 {
+    color:black; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: serif;
+}
+
+
+.event-details h2 {
+    color: black;
+    font-family: serif;
+    font-size: 2.0em;
+    margin-bottom: 10px;
+}
+
+.event-details h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+
+.event-details p,
+.message p,
+.rsvp p {
+    color: rgb(70, 12, 24);
+    font-style: italic;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+
+.rsvp {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    
+}
+
+.rsvp p {
+
+    font-size: 1.1em;
+    color:black;
+    position: relative;
+    right: 5px;
+   
+}
+
+button{
+    color: black;
+    background-color: rgb(231, 86, 110);
+    font-size: 1em;
+}
